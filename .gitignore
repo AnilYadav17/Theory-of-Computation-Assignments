@@ -1,8 +1,31 @@
-# Ignore compiled files
+# Build and Compilation Artifacts
 *.o
+*.obj
 *.out
 *.exe
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.gch
+*.pch
 
-# Ignore system files
-*.swp
+# Debugging and IDE
+*.dSYM/
+.vscode/ipch/
+.vscode/.browse.vc.db
+.vscode/*.vc.db
+*.suo
+*.user
+*.userossc
+*.sln
+*.vcxproj
+*.filters
+
+# System and Log files
 *.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
